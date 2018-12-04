@@ -6,7 +6,7 @@ int multiplied;
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode(POTENTIONMETER, INPUT);
+  pinMode(POTENTIOMETER, INPUT);
   pinMode(LED, OUTPUT);
   Serial.begin(9600);
 }
